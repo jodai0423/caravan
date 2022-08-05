@@ -61,7 +61,7 @@ header .heading {
   color: #fff;
 }
 main {
-  width: 800px;
+  width: 800%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -183,4 +183,56 @@ footer {
 }
 .footer-text {
   color: #fff;
+}
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  .nav-list {
+    width: 100%;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin-bottom: 10px
+  }
+  .social {
+    display: none;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+  .blog-box {
+    padding: 0 2% 0 2%;
+  }
+  .blog-image {
+    width: 50%;
+  }
+  .blog-text {
+    width: 50%;
+  }
+  .category {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .sidebar-contents {
+    padding: 50px 2% 50px 2%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
 }
